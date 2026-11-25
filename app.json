@@ -29,6 +29,7 @@
       "expo-router",
       "expo-sqlite",
       "expo-secure-store",
+      "expo-status-bar",
       [
         "expo-splash-screen",
         {
@@ -55,12 +56,10 @@
         "@sentry/react-native/expo",
         {
           "url": "https://sentry.io/",
-          "organization": "TU_ORGANIZACION_SENTRY",
-          "project": "control-electoral"
+          "organization": "controlelectoral",
+          "project": "react-native"
         }
-      ],
-      "expo-status-bar",
-      "@sentry/react-native"
+      ]
     ],
     "experiments": {
       "typedRoutes": true

@@ -11,9 +11,9 @@
       },
       "env": {
         "SENTRY_DISABLE_AUTO_UPLOAD": "true",
-        "EXPO_PUBLIC_SUPABASE_URL": "https://TU-PROYECTO.supabase.co",
-        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "PEGA_AQUI_LA_PUBLISHABLE_O_ANON_KEY",
-        "EXPO_PUBLIC_SENTRY_DSN": "PEGA_AQUI_EL_DSN_DE_SENTRY"
+        "EXPO_PUBLIC_SUPABASE_URL": "https://pmitvqjkwlkflqoxctva.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "sb_publishable_rQ1d0fFgT5UJClBgBpAi4g_owt4HeBy",
+        "EXPO_PUBLIC_SENTRY_DSN": "https://dfc37894c1e84b554a3617148c68ae96@o4512490893541376.ingest.us.sentry.io/4512490904223744"
       }
     },
     "production": {
