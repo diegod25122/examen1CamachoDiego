@@ -1,0 +1,23 @@
+/* ADR-06: Uniwind (Tailwind v4). Paleta de la organización cliente:
+   Movimiento Futuro Ciudadano (MFC, azul #1769AA, S-02) + acento ámbar. */
+@import 'tailwindcss';
+@import 'uniwind';
+
+@theme {
+  --color-marca: #1769AA;
+  --color-marca-oscuro: #0E4A7A;
+  --color-marca-claro: #E6F0F9;
+  --color-acento: #F2B705;
+  --color-acento-claro: #FFF6D6;
+  --color-tinta: #13212E;
+  --color-gris: #5B6B7A;
+  --color-gris-claro: #EEF2F6;
+  --color-borde: #D5DEE8;
+  --color-fondo: #F5F7FA;
+  --color-exito: #168A4A;
+  --color-exito-claro: #E3F5EA;
+  --color-error: #C62F3B;
+  --color-error-claro: #FDE8EA;
+  --color-alerta: #B76E00;
+  --color-alerta-claro: #FFF1DC;
+}

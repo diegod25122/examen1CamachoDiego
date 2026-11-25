@@ -1,0 +1,69 @@
+{
+  "expo": {
+    "name": "Control Electoral",
+    "slug": "control-electoral",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/imagenes/icono.png",
+    "scheme": "controlelectoral",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "ec.epn.controlelectoral"
+    },
+    "android": {
+      "package": "ec.epn.controlelectoral",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/imagenes/icono-adaptativo.png",
+        "backgroundColor": "#1769AA"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION"
+      ],
+      "edgeToEdgeEnabled": true
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite",
+      "expo-secure-store",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/imagenes/splash.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#1769AA"
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "La cámara se usa para fotografiar las actas de escrutinio.",
+          "recordAudioAndroid": false
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "La ubicación se guarda con cada acta para demostrar que se registró en el recinto."
+        }
+      ],
+      [
+        "@sentry/react-native/expo",
+        {
+          "url": "https://sentry.io/",
+          "organization": "TU_ORGANIZACION_SENTRY",
+          "project": "control-electoral"
+        }
+      ],
+      "expo-status-bar",
+      "@sentry/react-native"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "cli": {
+    "version": ">= 16.0.0",
+    "appVersionSource": "local"
+  },
+  "build": {
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "SENTRY_DISABLE_AUTO_UPLOAD": "true",
+        "EXPO_PUBLIC_SUPABASE_URL": "https://TU-PROYECTO.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "PEGA_AQUI_LA_PUBLISHABLE_O_ANON_KEY",
+        "EXPO_PUBLIC_SENTRY_DSN": "PEGA_AQUI_EL_DSN_DE_SENTRY"
+      }
+    },
+    "production": {
+      "android": {
+        "buildType": "app-bundle"
+      }
+    }
+  }
+}
